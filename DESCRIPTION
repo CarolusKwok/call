@@ -1,0 +1,20 @@
+Package: call
+Title: Standardized R messaging
+Version: 1.0.0.0000
+Authors@R: 
+    person("Carolus", "Kwok", , "u3564223@connect.hku.hk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-8926-6096",
+                       LinkedIn = "Carolus Kwok",
+                       Affiliation = "University of Hong Kong, City University of Hong Kong"))
+Description: 
+    `base` and `CLI` messages provides flexible messages, yet highly unstandardized and often lacking sufficient notice to the user.
+    The package standardized R messaging, including abort and warning messages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    cli,
+    magrittr,
+    rlang,
+    stringr
